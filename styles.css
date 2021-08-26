@@ -1,21 +1,61 @@
 * {
-    margin: 0;
+    margin: 0px;
     background-color: rgb(250, 243, 234);
+
 }
 
-h1 {
-    font-size: 50px;
-    margin-top: 20px;
+#me-img {
+    height: 120px;
+    width: 120px;
+    position: absolute; top: 20px; left: 40px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px grey;
+    z-index: 1;
 }
 
-#head {
+.navigations {
     display: flex;
+    position: absolute; top: 20px; right: 70px; 
     align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#navigation1 {
+    margin-left: 30px;
+    width: 100px;
+    display: flex;
     justify-content: center;
 }
 
-#p {
+#navigation2 {
+    margin-left: 30px;
+    width: 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+#navigation3 {
+    margin-left: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#navigation1:hover {
+    color: salmon;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+#navigation2:hover {
+    color: salmon;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+#navigation3:hover {
+    color: salmon;
+    cursor: pointer;
+    transition: all .6s ease;
 }
