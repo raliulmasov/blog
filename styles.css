@@ -3,8 +3,9 @@
     background-color: rgb(250, 243, 234);
 }
 
-html > h1 {
-    font-size: 20px;
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
 }
 
 #head {
