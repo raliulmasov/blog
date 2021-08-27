@@ -8,22 +8,37 @@
     line-height: 50px;
 }
 
+#my-name > a {
+    color: salmon;
+    text-decoration: none;
+}
+
+#my-posts > a {
+    color: salmon;
+    text-decoration: none;
+}
+
+#my-github > a {
+    color: salmon;
+    text-decoration: none;
+}
+
 #me-img {
     height: 500px;
     width: auto;
 }
 
 #my-name > a:hover {
-    color: lightskyblue;
+    color: lightpink;
     transition: all .6s ease;
 }
 
 #my-posts > a:hover {
-    color: lightblue;
+    color: lightpink;
     transition: all .6s ease;
 }
 
 #my-github > a:hover {
-    color: lightblue;
+    color: lightpink;
     transition: all .6s ease;
 }
