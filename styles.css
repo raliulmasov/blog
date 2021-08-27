@@ -29,16 +29,13 @@
 }
 
 #my-name > a:hover {
-    color: lightpink;
-    transition: all .6s ease;
+    text-decoration: underline;
 }
 
 #my-posts > a:hover {
-    color: lightpink;
-    transition: all .6s ease;
+    text-decoration: underline;
 }
 
 #my-github > a:hover {
-    color: lightpink;
-    transition: all .6s ease;
+    text-decoration: underline;
 }
