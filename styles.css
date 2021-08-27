@@ -6,10 +6,37 @@
     font-size: 30px;
     margin-left: 10px;
     line-height: 50px;
+    color: green;
 }
 
 #me-img {
     height: 500px;
     width: auto;
-    
+}
+
+#my-name > a {
+    color: green;
+}
+
+#my-posts > a {
+    color: green;
+}
+
+#my-github > a {
+    color: green;
+}
+
+#my-name > a:hover {
+    color: salmon;
+    transition: all .6s ease;
+}
+
+#my-posts > a:hover {
+    color: salmon;
+    transition: all .6s ease;
+}
+
+#my-github > a:hover {
+    color: salmon;
+    transition: all .6s ease;
 }
