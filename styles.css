@@ -1,5 +1,15 @@
 * {
     background-color: rgb(250, 243, 234);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -7,38 +17,4 @@
     margin-left: 10px;
     line-height: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#my-name > a {
-    color: salmon;
-    text-decoration: none;
-}
-
-#my-posts > a {
-    color: salmon;
-    text-decoration: none;
-}
-
-#my-github > a {
-    color: salmon;
-    text-decoration: none;
-}
-
-#me-img {
-    height: 500px;
-    width: auto;
-}
-
-#my-name > a:hover {
-    text-decoration: underline;
-}
-
-#my-posts > a:hover {
-    text-decoration: underline;
-}
-
-#my-github > a:hover {
-    text-decoration: underline;
-}
+    flex-direction: column; /* Stacks items
